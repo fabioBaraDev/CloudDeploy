@@ -3,12 +3,14 @@ package br.com.fiap.cadastroAluno.cadastroAluno.service.impl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
 
 import br.com.fiap.cadastroAluno.cadastroAluno.dto.ClienteDTO;
 import br.com.fiap.cadastroAluno.cadastroAluno.model.ClienteModel;
 import br.com.fiap.cadastroAluno.cadastroAluno.service.CadastroClienteService;
 import br.com.fiap.cadastroAluno.repository.ClienteRepository;
 
+@Service
 public class CadastroClienteServiceImpl implements CadastroClienteService {
 
 	@Autowired
